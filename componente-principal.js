@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
-import { pokemon } from 'pokemon.js'
-import 'componente-dos.js'
+import { pokemon } from './pokemon.js';
+import './componente-dos.js';
 
 export class ComponentePrincipal extends LitElement {
     static get properties() {
@@ -13,6 +13,11 @@ export class ComponentePrincipal extends LitElement {
             :host {
                 display: block;
                 color: blue;
+                padding: 10px;
+            }
+
+            h1 {
+                color: red;
             }
         `
     ];
