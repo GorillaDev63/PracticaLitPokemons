@@ -12,10 +12,14 @@ export class PokeCard extends LitElement {
                 display: block;
             }
             .pokeCard{
-                display:flex;
-                flex-direction:column;
-                height:18rem;
-                width:18rem;
+                /* display: flex; */
+                flex-direction: column-reverse;
+                height: 18rem;
+                width: 18rem;
+            }
+
+            img{
+                max-width: 100%;
             }
         `
     ];
